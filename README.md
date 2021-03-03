@@ -14,7 +14,7 @@ Here are the instructions to run this project on your local machine.
   d. Now, copy the "best_check_point_pretrained_model" and "best_check_point_pretrained_model_dict" files from the G-drive path - p1s3_large_model_files/pretrained/ and paste it in the local under the following path.
       p1s3/model/classifier/pretrained
   e. Do the same for "best_check_point_pretrained_model" file under the p1s3_large_model_files/ui/ folder and paste in local path  p1s3/ui/
-3. Now run the requirements.py file and make sure all the necessary dependencies are installed.
+3. Now run the requirements.txt file and make sure all the necessary dependencies are installed.
 4. Now, Open the terminal (or other OS eqivalent) and locally go to  p1s3_large_model_files/ui/ path.
 5. Run the following commands on your terminal.
     a. python setup.py build
