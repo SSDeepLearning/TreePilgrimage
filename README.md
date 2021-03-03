@@ -16,8 +16,11 @@ Here are the instructions to run this project on your local machine.
   e. Do the same for "best_check_point_pretrained_model" file under the p1s3_large_model_files/ui/ folder and paste in local path  p1s3/ui/
 3. Now run the requirements.py file and make sure all the necessary dependencies are installed.
 4. Now, Open the terminal (or other OS eqivalent) and locally go to  p1s3_large_model_files/ui/ path.
-#5. Add Build and distribution commands for setup file. #Sanjay
-6. Under the ui folder run the following command.
+5. Run the following commands on your terminal.
+    a. python setup.py build
+    b. python setup.py install
+    c. python setup.py bdist_wheel
+7. Under the ui folder run the following command.
     strealit run image.py
 7. A browser window will open up with the project UI. Playaround and enjoy.
   
